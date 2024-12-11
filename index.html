@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Planet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        .hero {
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 50px 20px;
+        }
+        .courses {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .course {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            width: 30%;
+            text-align: center;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .form-container input, .form-container textarea, .form-container button {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Knowledge Planet</h1>
+        <p>Your Pathway to Excellence in Education</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#courses">Courses</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#registration">Register</a>
+    </nav>
+    <section class="hero">
+        <h2>Welcome to Knowledge Planet</h2>
+        <p>Offering Lok Sewa preparation, SEE packages, bridge courses, and more to help you achieve your goals.</p>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Knowledge Planet is a premier educational institute dedicated to fostering academic excellence and skill development. We provide a supportive learning environment, experienced instructors, and a comprehensive curriculum tailored to meet the diverse needs of our students. Whether you aim to excel in competitive exams, achieve top grades, or bridge the gap to higher education, Knowledge Planet is your trusted partner in success.</p>
+    </section>
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <div class="courses">
+            <div class="course">
+                <h3>Lok Sewa Preparation</h3>
+                <p>Our Lok Sewa Preparation course equips you with in-depth knowledge, exam strategies, and practice to succeed in government service exams.</p>
+            </div>
+            <div class="course">
+                <h3>SEE Package Classes</h3>
+                <p>Specialized classes designed to help students master the curriculum, improve their understanding, and achieve excellent results in the SEE exams.</p>
+            </div>
+            <div class="course">
+                <h3>Bridge Courses</h3>
+                <p>Focused programs aimed at bridging the academic gap between secondary and higher education, ensuring a smooth transition for students.</p>
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Explore moments from our classrooms, events, and student activities.</p>
+        <div>
+            <img src="image1.jpg" alt="Classroom Activity" style="width: 30%; margin: 5px;">
+            <img src="image2.jpg" alt="Student Workshop" style="width: 30%; margin: 5px;">
+            <img src="image3.jpg" alt="Graduation Ceremony" style="width: 30%; margin: 5px;">
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Address: Dhangadhi Sub-Metropolitan City, Ward No.-4, uttarbehedi, Kailali, Nepal</p>
+        <p>Phone: +977-9768477584</p>
+        <p>Email: keshavbhatta5@gmail.com</p>
+        <p>Feel free to reach out to us for any inquiries or information.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.850034033414!2d85.324!3d27.717!3m2!1i1024!2i768!4f13.1" allowfullscreen></iframe>
+    </section>
+    <section id="registration">
+        <h2>Online Registration</h2>
+        <div class="form-container">
+            <form action="#">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="tel" name="phone" placeholder="Your Phone Number" required>
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Knowledge Planet. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
